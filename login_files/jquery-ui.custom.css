@@ -1,0 +1,564 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content=" width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Faculty of Engineering - Ain Shams University, Home</title>
+    <!-- favicon icon -->
+    <link rel="shortcut icon" href="/ext/images/favicon.ico">
+    <!-- bootstrap -->
+    <link rel="stylesheet" type="text/css" href="/ext/css/en_bootstrap.min.css">
+    <!-- animate -->
+    <link rel="stylesheet" type="text/css" href="/ext/css/animate.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" type="text/css" href="/ext/css/font-awesome.css">
+    <!-- themify -->
+    <link rel="stylesheet" type="text/css" href="/ext/css/themify-icons.css">
+    <!-- flaticon -->
+    <link rel="stylesheet" type="text/css" href="/ext/css/flaticon.css">
+    <!-- slick -->
+    <link rel="stylesheet" type="text/css" href="/ext/css/en_slick.css">
+    <!-- prettyphoto -->
+    <link rel="stylesheet" type="text/css" href="/ext/css/prettyPhoto.css">
+    <!-- shortcodes -->
+    <link rel="stylesheet" type="text/css" href="/ext/css/en_shortcodes.css">
+    <!-- main -->
+    <link rel="stylesheet" type="text/css" href="/ext/css/en_main.css">
+    <!-- main -->
+    <link rel="stylesheet" type="text/css" href="/ext/css/en_megamenu.css">
+    <!-- responsive -->
+    <link rel="stylesheet" type="text/css" href="/ext/css/en_responsive.css">
+    <!-- asueng -->
+    <link rel="stylesheet" type="text/css" href="/ext/css/asueng.css">
+    <!-- accessibility menu -->
+    <link rel="stylesheet" type="text/css" href="/ext/css/accessibility-menu.css">
+
+    <script src="/ext/js/jquery.min.js"></script>
+</head>
+
+
+<body>
+
+    <div id="wrapper" class="clearfix">
+
+                    <!--Header Start-->
+<header id="masthead" class="header ttm-header-style-01">
+
+    <!-- top_bar start-->
+    <div class="top_bar ttm-bgcolor-darkgrey ttm-textcolor-white clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12 d-flex flex-row align-items-center">
+                    <div class="top_bar_contact_item">
+                        <div class="top_bar_icon"><i class="fa fa-envelope-o"></i></div><a href="mailto:info@eng.asu.edu.eg">info@eng.asu.edu.eg</a>
+                    </div>
+                    <div class="top_bar_contact_item">
+                        <div class="top_bar_icon"><i class="fa fa-phone"></i></div><span dir="ltr"><a href="tel:2024660647">+20 24660647</a></span>
+                    </div>
+                    <div class="top_bar_contact_item">
+                        <div class="top_bar_social">
+                            <ul class="social-icons">
+                                <li>
+                                    <a class="tooltip-bottom" target="_blank" href="https://www.facebook.com/faculty.eng.asu" data-tooltip="Facebook" tabindex="-1"><i class="fa fa-facebook"></i></a>
+                                </li>
+                                <li>
+                                    <a class="tooltip-bottom" target="_blank" href="https://eg.linkedin.com/company/faculty-of-engineering-ain-shams-university" data-tooltip="Linkedin" tabindex="-1"><i class="fa fa-linkedin"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="top_bar_contact_item ml-auto">
+                                                   <a href="https://eng.asu.edu.eg/login">Login</a>
+                                            </div>
+                    <div class="top_bar_contact_item arabicfont">
+                        <a href="https://eng.asu.edu.eg/ar/int/css/ui-bootstrap/jquery-ui.custom.css">عربي</a>&nbsp;
+                    </div>
+                    <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-btn-style-fill ttm-btn-color-skincolor" href="https://eng.asu.edu.eg/apply">Apply Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- top_bar end-->
+
+    <!-- user-header-menu start-->
+    <div id="user-header-menu" class="site-header-menu ttm-bgcolor-white mt-2">
+      <div class="site-header-menu-inner">
+          <div class="container">
+              <div class="row">
+                  <div class="col">
+                      <!--site-navigation -->
+                      <div class="site-navigation d-flex flex-row">
+                          <!-- site-branding -->
+                          <div class="site-branding mr-auto">
+                              <a class="home-link" href="/" title="Faculty of Engineering" rel="home">
+                                  <img id="logo-img" style="max-height: 100px;" class="img-center lazyload" src="/public/ext/images/en_logo.png" alt="logo-img">
+                              </a>
+                          </div>
+                          <!-- site-branding end -->
+                          <div class="header_extra d-flex flex-row align-items-center justify-content-end">
+                              <div class="header_cart mr-5">
+                                  <a href="https://eng.asu.edu.eg/services/3"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> Students</a>
+                              </div>
+                              <div class="header_cart ml-5">
+                                  <a href="https://eng.asu.edu.eg/services/1"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> Staff</a>
+                              </div>
+                              <div class="header_cart ml-5">
+                                  <a href="https://eng.asu.edu.eg/services/2"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> Employees</a>
+                              </div>
+                              <div class="header_cart ml-5">
+                                  <a href="/2064245"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> Alumni</a>
+                              </div>
+                              <div class="header_cart ml-5">
+                                  <a href="/2064246"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> Community Services</a>
+                              </div>
+                              <div class="header_cart ml-5">
+                                <a href="/2685069"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> Industry</a>
+                              </div>                              
+                          </div>
+                      </div>
+                      <!-- site-navigation end-->
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+    <!-- user-header-menu end-->
+
+    <!-- site-header-menu start-->
+    <div id="site-header-menu" class="site-header-menu ttm-bgcolor-white">
+    <div class="site-header-menu-inner ttm-stickable-header">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <!--site-navigation -->
+                    <div class="site-navigation d-flex flex-row">
+                        <div class="btn-show-menu-mobile menubar menubar--squeeze">
+                            <span class="menubar-box">
+                              <span class="menubar-inner"></span>
+                            </span>
+                        </div>
+                        <!-- menu -->
+                        <nav class="main-menu menu-mobile mr-auto" id="menu">
+                            <ul class="menu">
+                                <li class="mega-menu-item">
+                                    <a href="/">Home</a>
+                                </li>
+                                                                    <li class="mega-menu-item">
+                                                                                                                        <a class="mega-menu-link" href="/2064217">
+                                            About
+                                        </a>
+                                                                                    <ul class="mega-submenu">
+                                                                                                    <li>
+                                                                                                                    <a href="/2064318">History</a>
+                                                                                                            </li>
+                                                                                                    <li>
+                                                                                                                    <a href="/2064319">Vision and Mission</a>
+                                                                                                            </li>
+                                                                                                    <li>
+                                                                                                                    <a href="/2230183">Leadership</a>
+                                                                                                            </li>
+                                                                                                    <li>
+                                                                                                                    <a href="/2069514">Faculty Awards</a>
+                                                                                                            </li>
+                                                                                                    <li>
+                                                                                                                    <a href="/2064326">Outstanding Graduates</a>
+                                                                                                            </li>
+                                                                                                    <li>
+                                                                                                                    <a href="/2064327">Faculty of Engineering Strategy</a>
+                                                                                                            </li>
+                                                                                                    <li>
+                                                                                                                    <a href="stats" target="_blank">Quick Facts</a>
+                                                                                                            </li>
+                                                                                            </ul>
+                                                                            </li>
+                                                                    <li class="mega-menu-item">
+                                                                                                                        <a class="mega-menu-link" href="/2064224">
+                                            Academics
+                                        </a>
+                                                                                    <ul class="mega-submenu">
+                                                                                                    <li>
+                                                                                                                    <a href="/2064342">Specialized Undergraduate SCHEP</a>
+                                                                                                            </li>
+                                                                                                    <li>
+                                                                                                                    <a href="/2064345">International Undergraduate ICHEP</a>
+                                                                                                            </li>
+                                                                                                    <li>
+                                                                                                                    <a href="/2064346">Postgraduate</a>
+                                                                                                            </li>
+                                                                                                    <li>
+                                                                                                                    <a href="/2064347">Practical Field Training</a>
+                                                                                                            </li>
+                                                                                                    <li>
+                                                                                                                    <a href="/2064348">Academic Excellence</a>
+                                                                                                            </li>
+                                                                                                    <li>
+                                                                                                                    <a href="/2414650">Academic Calendar and Schedule</a>
+                                                                                                            </li>
+                                                                                            </ul>
+                                                                            </li>
+                                                                    <li class="mega-menu-item">
+                                                                                                                        <a class="mega-menu-link" href="/2064228">
+                                            Research
+                                        </a>
+                                                                                    <ul class="mega-submenu">
+                                                                                                    <li>
+                                                                                                                    <a href="/2064432">Research Plans</a>
+                                                                                                            </li>
+                                                                                                    <li>
+                                                                                                                    <a href="/2743270">Best Thesis Award</a>
+                                                                                                            </li>
+                                                                                                    <li>
+                                                                                                                    <a href="/2064433">Ain Shams Engineering Journal</a>
+                                                                                                            </li>
+                                                                                                    <li>
+                                                                                                                    <a href="/2064434">Academic Events</a>
+                                                                                                            </li>
+                                                                                                    <li>
+                                                                                                                    <a href="/2064442">Institutional Review Board</a>
+                                                                                                            </li>
+                                                                                                    <li>
+                                                                                                                    <a href="/2064443">Contact Us</a>
+                                                                                                            </li>
+                                                                                            </ul>
+                                                                            </li>
+                                                                    <li class="mega-menu-item">
+                                                                                                                        <a class="mega-menu-link" href="/2064232">
+                                            Student Life
+                                        </a>
+                                                                                    <ul class="mega-submenu">
+                                                                                                    <li>
+                                                                                                                    <a href="/2064467">Student Activities</a>
+                                                                                                            </li>
+                                                                                                    <li>
+                                                                                                                    <a href="/2064468">Evolution network for student wellbeing</a>
+                                                                                                            </li>
+                                                                                                    <li>
+                                                                                                                    <a href="/2064469">Accessibility Unit</a>
+                                                                                                            </li>
+                                                                                                    <li>
+                                                                                                                    <a href="/2489904">Highlights</a>
+                                                                                                            </li>
+                                                                                            </ul>
+                                                                            </li>
+                                                                    <li class="mega-menu-item">
+                                                                                                                        <a class="mega-menu-link" href="/2064233">
+                                            Faculty and Staff
+                                        </a>
+                                                                                    <ul class="mega-submenu">
+                                                                                                    <li>
+                                                                                                                    <a href="/2064502">Departments</a>
+                                                                                                            </li>
+                                                                                                    <li>
+                                                                                                                    <a href="/2064503">Units</a>
+                                                                                                            </li>
+                                                                                                    <li>
+                                                                                                                    <a href="/2064504">Facilities</a>
+                                                                                                            </li>
+                                                                                                    <li>
+                                                                                                                    <a href="https://www.asu.edu.eg/ar/staff" target="_blank">Staff Services</a>
+                                                                                                            </li>
+                                                                                                    <li>
+                                                                                                                    <a href="/2064595">Faculty Governance</a>
+                                                                                                            </li>
+                                                                                                    <li>
+                                                                                                                    <a href="/staff" target="_blank">Academic Staff</a>
+                                                                                                            </li>
+                                                                                            </ul>
+                                                                            </li>
+                                                                    <li class="mega-menu-item">
+                                                                                                                        <a class="mega-menu-link" href="/2064243">
+                                            International Collaboration
+                                        </a>
+                                                                                    <ul class="mega-submenu">
+                                                                                                    <li>
+                                                                                                                    <a href="/2216350">International Students</a>
+                                                                                                            </li>
+                                                                                                    <li>
+                                                                                                                    <a href="/2254042">International Agreements</a>
+                                                                                                            </li>
+                                                                                                    <li>
+                                                                                                                    <a href="/2222178">International Mobility</a>
+                                                                                                            </li>
+                                                                                                    <li>
+                                                                                                                    <a href="/2222550">Contact Us</a>
+                                                                                                            </li>
+                                                                                            </ul>
+                                                                            </li>
+                                                                    <li class="mega-menu-item">
+                                                                                                                        <a class="mega-menu-link" href="/2064247">
+                                            Admission
+                                        </a>
+                                                                                    <ul class="mega-submenu">
+                                                                                                    <li>
+                                                                                                                    <a href="/2277578">Undergraduate</a>
+                                                                                                            </li>
+                                                                                                    <li>
+                                                                                                                    <a href="/2277732">Postgraduate</a>
+                                                                                                            </li>
+                                                                                                    <li>
+                                                                                                                    <a href="/2277740">International Students</a>
+                                                                                                            </li>
+                                                                                                    <li>
+                                                                                                                    <a href="/2277745">Tuition and Aid</a>
+                                                                                                            </li>
+                                                                                                    <li>
+                                                                                                                    <a href="/2595156">Student Transfer</a>
+                                                                                                            </li>
+                                                                                            </ul>
+                                                                            </li>
+                                
+                                <li class="mega-menu-item users-menu">
+                                    <a href="#" class="mega-menu-link">Our Customers</a>
+                                    <ul class="mega-submenu">
+                                        <li>
+                                            <a href="https://eng.asu.edu.eg/services/3">Students</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://eng.asu.edu.eg/services/1">Staff</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://eng.asu.edu.eg/services/2">Employees</a>
+                                        </li>
+                                        <li>
+                                            <a href="/2064245">Alumni</a>
+                                        </li>
+                                        <li>
+                                            <a href="/2064246">Community Services</a>
+                                        </li>
+                                        <li>
+                                            <a href="/2685069">Industry</a>
+                                        </li>                                        
+                                    </ul>
+                                </li>
+                                <li class="mega-menu-item users-menu">
+                                                                            <a href="https://eng.asu.edu.eg/login">Login</a>
+                                                                    </li>
+                                <li class="mega-menu-item users-menu">
+                                                                        <a href="https://eng.asu.edu.eg/ar">عربي</a>&nbsp;
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="header_extra d-flex flex-row align-items-center justify-content-end">
+                        <div class="header_search">
+                            <a href="#" class="btn-default search_btn"><i class="ti ti-search"></i></a>
+                            <div class="header_search_content">
+                                <form id="searchbox" method="get" action="https://eng.asu.edu.eg/main_search">
+                                    <input class="search_query" type="text" id="search_query_top" name="search_text" placeholder="Enter Keyword" value="">
+                                    <button type="submit" class="btn close-search"><i class="fa fa-search"></i></button>
+                                </form>
+                            </div>
+                        </div>
+
+                        </div>
+                    </div>
+                    <!-- site-navigation end-->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- site-header-menu end-->
+</header>
+<!--header end-->
+
+        
+        <div class="main-content">
+            
+<section class="error-404 bg-img3">
+    <div class="container">
+        <div class="ttm-big-icon ttm-textcolor-skincolor">
+            <i class="fa fa-thumbs-o-down"></i>
+        </div>
+        <header class="page-header"><h1 class="page-title">404 ERROR</h1></header>
+        <div class="page-content"> <p>This page does not exist.</p></div>
+        <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-btn-style-border ttm-btn-color-dark mb-15" href="/">Back To Home</a>
+    </div>
+</section>
+
+        </div>
+
+        <footer class="footer ttm-bgcolor-darkgrey ttm-textcolor-white clearfix">
+  <div class="second-footer">
+      <div class="container">
+          <div class="row">
+              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 widget-area">
+                  <div class="widget widget_text clearfix">
+                      <div class="footer-logo">
+                          <img id="footer-logo-img" class="img-center lazyload ml-4" src="/public/ext/images/logo-white.png" alt="">
+                      </div>
+                      <div class="textwidget widget-text">
+                        <h5 class="pb-10 pr-30 res-575-pr-0 customfont">Faculty of Engineering</h5>
+                      </div>
+                  </div>
+                  <div class="widget widget_timing clearfix">
+                      <div class="ttm-timelist-block-wrapper">
+                          <ul class="ttm-timelist-block pr-15">
+                              <li><i class="fa fa-home"></i> Faculty of Engineering, Ain Shams University</li>
+                              <li><i class="fa fa-envelope"></i> <a href="mailto:info@eng.asu.edu.eg">info@eng.asu.edu.eg</a></li>
+                              <li><i class="fa fa-phone"></i> <a href="tel:+2024660647">+20 24660647</a></li>
+                              <li><i class="fa fa-question"></i> <a href="/more/support">Suggestions and Complains</a></li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 widget-area">
+                  <div class="widget widget_nav_menu clearfix">
+                     <h3 class="widget-title customfont">Useful Links</h3>
+                      <ul id="menu-footer-quick-links">
+                          <li><a href="https://scu.eg/" target="_blank">Supreme Council of Universities</a></li>
+                          <li><a href="https://mohesr.gov.eg/en-us/Pages/home.aspx" target="_blank">Ministry of Higher Education & Scientific Research</a></li>
+                          <li><a href="https://digital.gov.eg/" target="_blank">Egyptian Government Portal</a></li>
+                          <li><a href="https://www.ekb.eg/ar/home" target="_blank">Egyptian Knowledge Bank</a></li>
+                          <li><a href="http://www.asrt.sci.eg/" target="_blank">Academy of Scientific Research and Technology</a></li>
+                          <li><a href="http://scc.gov.eg/" target="_blank">Supreme Council of Culture</a></li>
+                          <li><a href="https://www.shakwa.eg/GCP/Default.aspx" target="_blank">Governmental Complaints Portal</a></li>
+                          <li><a href="https://study-in-egypt.gov.eg/" target="_blank">Study In Egypt</a></li>
+                          <li><a href="https://egea.gov.eg/" target="_blank">Egypt government excellence award</a></li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 widget-area">
+                  <div class="widget widget_nav_menu clearfix">
+                     <h3 class="widget-title customfont">Our Services</h3>
+                      <ul id="menu-footer-services">
+                          <li style="display: list-item; width: 100%;"><a href="/2280337">Engineering Consultancy Centre</a></li>
+                          <li style="display: list-item; width: 100%;"><a href="/2256007">Consultancy Units</a></li>
+                          <li style="display: list-item; width: 100%;"><a href="/2064571">Engineering Training Center</a></li>
+                          <li style="display: list-item; width: 100%;"><a href="#">Non-Degree Credentials</a></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="bottom-footer-text text-center">
+      <div class="container">
+          <div class="row">
+              <div class="col-sm-12">
+                  <ul id="menu-footer-menu" class="footer-nav-menu ttm-textcolor-white">
+                      <li><a href="/2067221">Privacy Policy</a></li>
+                      <li><a href="/2067220">Terms Of Use</a></li>
+                      <li><a href="/2401269">Contact</a></li>
+                  </ul>
+                  <div class="text-center pb-15">Copyright © 2024 Faculty of Engineering, Ain Shams University</div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+</footer>
+
+        <!-- Accessibility Menu -->
+<div id="asueng-acc-menu" class="asueng-acc-menu">
+    <!-- Toggle Button -->
+    <button id="asueng-acc-toggle" class="asueng-acc-toggle" aria-label="Accessibility Options" title="Accessibility Options">
+        <i class="fa fa-universal-access" aria-hidden="true"></i>
+    </button>
+
+    <!-- Menu Panel -->
+    <div class="asueng-acc-panel">
+        <div class="asueng-acc-header">
+            <h3>
+                <i class="fa fa-universal-access text-white" aria-hidden="true"></i>
+                Accessibility Options            </h3>
+        </div>
+
+        <div class="asueng-acc-content">
+            <!-- Font Size Control -->
+            <div class="asueng-acc-section">
+                <div class="asueng-acc-section-header">
+                    <i class="fa fa-font" aria-hidden="true"></i>
+                    <span>Font Size</span>
+                </div>
+                <div class="asueng-acc-font-size-controls">
+                    <button class="asueng-acc-font-size-btn" data-size="extra-small" aria-label="Extra Small Font">
+                        <i class="fa fa-minus" aria-hidden="true"></i>
+                        <span>A--</span>
+                    </button>
+                    <button class="asueng-acc-font-size-btn" data-size="small" aria-label="Small Font">
+                        <i class="fa fa-minus" aria-hidden="true"></i>
+                        <span>A-</span>
+                    </button>
+                    <button class="asueng-acc-font-size-btn active" data-size="normal" aria-label="Normal Font">
+                        <i class="fa fa-text-height" aria-hidden="true"></i>
+                        <span>A</span>
+                    </button>
+                    <button class="asueng-acc-font-size-btn" data-size="large" aria-label="Large Font">
+                        <i class="fa fa-plus" aria-hidden="true"></i>
+                        <span>A+</span>
+                    </button>
+                    <button class="asueng-acc-font-size-btn" data-size="extra-large" aria-label="Extra Large Font">
+                        <i class="fa fa-plus" aria-hidden="true"></i>
+                        <span>A++</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Contrast Control -->
+            <div class="asueng-acc-section">
+                <div class="asueng-acc-section-header">
+                    <i class="fa fa-adjust" aria-hidden="true"></i>
+                    <span>Contrast</span>
+                </div>
+                <div class="asueng-acc-contrast-controls">
+                    <button class="asueng-acc-contrast-btn active" data-contrast="normal" aria-label="Normal Contrast">
+                        <i class="fa fa-circle-o" aria-hidden="true"></i>
+                        <span>Normal</span>
+                    </button>
+                    <button class="asueng-acc-contrast-btn" data-contrast="medium" aria-label="Medium Contrast">
+                        <i class="fa fa-adjust" aria-hidden="true"></i>
+                        <span>Medium</span>
+                    </button>
+                    <button class="asueng-acc-contrast-btn" data-contrast="high" aria-label="High Contrast">
+                        <i class="fa fa-circle" aria-hidden="true"></i>
+                        <span>High</span>
+                    </button>
+                    <button class="asueng-acc-contrast-btn" data-contrast="very-high" aria-label="Very High Contrast">
+                        <i class="fa fa-circle" aria-hidden="true"></i>
+                        <span>Very High</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Reset Button - At the bottom -->
+            <div class="asueng-acc-section asueng-acc-reset-section">
+                <button class="asueng-acc-reset-btn" id="asueng-acc-reset" aria-label="Reset to Default">
+                    <i class="fa fa-refresh" aria-hidden="true"></i>
+                    <span>Reset</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    </div>
+
+    <!-- Javascript -->
+<!--<script src="/ext/js/jquery.min.js"></script>-->
+<script src="/ext/js/tether.min.js"></script>
+<script src="/ext/js/bootstrap.min.js"></script>
+<script src="/ext/js/jquery.easing.js"></script>
+<script src="/ext/js/jquery-waypoints.js"></script>
+<script src="/ext/js/jquery-validate.js"></script>
+<script src="/ext/js/jquery.prettyPhoto.js"></script>
+<script src="/ext/js/slick.min.js"></script>
+<script src="/ext/js/numinate.min.js"></script>
+<script src="/ext/js/imagesloaded.min.js"></script>
+<script src="/ext/js/jquery-isotope.js"></script>
+<script src="/ext/js/lazysizes.min.js"></script>
+<script src="/ext/js/en_main.js"></script>
+<script src="/int/js/factory.js"></script>
+<!-- accessibility menu -->
+<script src="/ext/js/accessibility-menu.js"></script>
+<!-- Javascript end-->
+
+
+</body>
+
+</html>
+
+

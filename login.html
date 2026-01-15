@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta
+      http-equiv="origin-trial"
+      content="A7vZI3v+Gz7JfuRolKNM4Aff6zaGuT7X0mf3wtoZTnKv6497cVMnhy03KDqX7kBz/q/iidW7srW31oQbBt4VhgoAAACUeyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGUuY29tOjQ0MyIsImZlYXR1cmUiOiJEaXNhYmxlVGhpcmRQYXJ0eVN0b3JhZ2VQYXJ0aXRpb25pbmczIiwiZXhwaXJ5IjoxNzU3OTgwODAwLCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="
+    />
+    <!-- Required meta tags -->
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="Faculty of Engineering" />
+    <meta name="keywords" content="Faculty of Engineering" />
+    <meta name="author" content="ISC - Information Systems Center" />
+    <link
+      rel="shortcut icon"
+      href="https://eng.asu.edu.eg/public/int/images/logo.png"
+    />
+    <meta
+      name="csrf-token"
+      content="n5kfsryR552TdrKM56zfDjvCtTeMfXtl43Nq9MGV"
+    />
+    <title>SIS, Faculty of Engineering - Login</title>
+
+    <script
+      type="text/javascript"
+      async=""
+      charset="utf-8"
+      src="./login_files/recaptcha__en.js.download"
+      crossorigin="anonymous"
+      integrity="sha384-CsMESSmpdyXn2oSFisDd6UA6lT/9DlfGd77o9JZlC2/zeLHxhb5UOwKTAkz7dFBg"
+    ></script>
+    <script src="./login_files/jquery.js.download"></script>
+
+    <!-- Common CSS -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./login_files/bootstrap.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="./login_files/icomoon.css" />
+    <link rel="stylesheet" href="./login_files/main.css" />
+
+    <!-- upload files -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./login_files/jquery.fileuploader.css"
+      media="all"
+    />
+
+    <!-- Datatable CSS -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./login_files/jquery.dataTables.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./login_files/responsive.dataTables.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./login_files/rowReorder.dataTables.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="./login_files/dynamic-table.jquery.css"
+      type="text/css"
+    />
+
+    <link rel="stylesheet" href="./login_files/jquery-ui.css" type="text/css" />
+
+    <!-- Chosen Select CSS -->
+    <link rel="stylesheet" type="text/css" href="./login_files/chosen.css" />
+
+    <!-- Selectize CSS -->
+    <link rel="stylesheet" type="text/css" href="./login_files/selectize.css" />
+
+    <!-- Summernote CSS -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./login_files/summernote.css"
+    />
+
+    <!-- Faculty CSS -->
+    <link rel="stylesheet" type="text/css" href="./login_files/faculty.css" />
+
+    <link rel="stylesheet" type="text/css" href="./login_files/factory.css" />
+
+    <link
+      rel="stylesheet"
+      href="./login_files/chartist.min.css"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="./login_files/chartist-custom.css"
+      type="text/css"
+    />
+
+    <link
+      rel="stylesheet"
+      media="screen"
+      href="./login_files/jquery-ui.custom.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen"
+      href="./login_files/handsontable.full.min.css"
+    />
+    <link rel="stylesheet" media="screen" href="./login_files/demo-style.css" />
+    <link rel="stylesheet" media="screen" href="./login_files/toastr.min.css" />
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <style>
+      .cke {
+        visibility: visible;
+      }
+    </style>
+    <style>
+      .g-recaptcha {
+        position: relative;
+      }
+
+      /* First overlay */
+      .g-recaptcha::after {
+        content: "";
+        position: absolute;
+        bottom: 66px;
+        left: 2px;
+        width: 295px;
+        height: 9px;
+        background: #f9f9f9;
+        z-index: 1000;
+      }
+
+      /* Second overlay */
+      .g-recaptcha::before {
+        content: "";
+        position: absolute;
+        bottom: 55px;
+        left: 2px;
+        width: 100px;
+        height: 10px;
+        background: #f9f9f9;
+        z-index: 1000;
+      }
+    </style>
+  </head>
+
+  <body
+    cz-shortcut-listen="true"
+    data-new-gr-c-s-check-loaded="14.1268.0"
+    data-gr-ext-installed=""
+  >
+    <div class="container">
+      <div class="login-screen row align-items-center">
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+          <form
+            id="signin_form"
+            method="post"
+            action="https://eng.asu.edu.eg/login"
+            aria-label="Login"
+          >
+            <input
+              type="hidden"
+              name="_token"
+              value="n5kfsryR552TdrKM56zfDjvCtTeMfXtl43Nq9MGV"
+            />
+            <div class="login-container">
+              <div class="row no-gutters">
+                <div class="col-xl-5 col-lg-5 col-md-6 col-sm-12">
+                  <div class="login-box">
+                    <a href="https://eng.asu.edu.eg/" class="login-logo">
+                      <img src="./login_files/asueng-b.png" />
+                    </a>
+                    <h5 style="text-align: center">
+                      Faculty Information System (FIS)
+                    </h5>
+                    <p style="text-align: center">
+                      <strong
+                        >(FIS) system is for Undergraduate, Postgraduate
+                        Students, Alumni and Guests only.</strong
+                      >
+                    </p>
+                    <div class="input-group">
+                      <span class="input-group-addon btn-lg" id="username"
+                        ><i class="icon-account_circle"></i
+                      ></span>
+                      <input
+                        placeholder="Email"
+                        id="email"
+                        type="email"
+                        class="form-control"
+                        name="email"
+                        value=""
+                        required=""
+                        autofocus=""
+                      />
+                    </div>
+                    <br />
+                    <div class="input-group">
+                      <span class="input-group-addon btn-lg" id="password"
+                        ><i class="icon-verified_user"></i
+                      ></span>
+                      <input
+                        placeholder="Password"
+                        id="password"
+                        type="password"
+                        class="form-control"
+                        name="password"
+                        required=""
+                      />
+                    </div>
+
+                    <br />
+                    <div
+                      class="g-recaptcha"
+                      id="recaptcha"
+                      data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
+                    ></div>
+                    <p class="msg-error"></p>
+
+                    <div
+                      id="ajax_form_progress_bar"
+                      style="background-color: green; width: 0%; height: 2px"
+                    ></div>
+                    <br />
+
+                    <div class="actions clearfix">
+                      <button type="submit" class="btn btn-primary">
+                        Login <i class="ti ti-angle-double-right"></i>
+                        <span id="ajax_form_progress_text"></span>
+                      </button>
+                    </div>
+                    <div class="or"></div>
+                    <div class="mt-4">
+                      <a
+                        href="https://eng.asu.edu.eg/request_Login"
+                        class="additional-link"
+                        >Can Not Sign In? <span>Press Here</span></a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-7 col-lg-7 col-md-6 col-sm-12">
+                  <div class="login-slider"></div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <footer class="main-footer fixed-btm">
+      Copyright ,
+      <a href="http://isc.eng.asu.edu.eg/" title="Information Systems Unit"
+        >Information Systems Unit</a
+      >
+      ,
+      <a href="https://eng.asu.edu.eg/" title="Faculty of Engineering"
+        >Faculty of Engineering</a
+      >
+      ,
+      <a href="http://asu.edu.eg/" title="Ain Shams University"
+        >Ain Shams University</a
+      >.
+    </footer>
+
+    <script type="text/javascript">
+      var dataTableLanguage = {
+        lengthMenu: "Show _MENU_ entries",
+        search: "Search : ",
+        info: "Showing _START_ to _END_ of _TOTAL_",
+        infoEmpty: "No records available",
+        infoFiltered: "(filtered from _MAX_ total records)",
+        loadingRecords: "Loading...",
+        processing: "Processing...",
+        zeroRecords: "No matching records found",
+        paginate: {
+          first: "First",
+          last: "Last",
+          next: "Next",
+          previous: "Previous",
+        },
+      };
+
+      // Loading
+      $(function () {
+        $(".loading-wrapper").fadeOut(500);
+      });
+    </script>
+
+    <script src="./login_files/sweetalaert.js.download"></script>
+    <script src="./login_files/factory.js.download"></script>
+
+    <script src="./login_files/tether.min.js.download"></script>
+    <script src="./login_files/bootstrap.min.js.download"></script>
+    <script src="./login_files/moment.js.download"></script>
+    <script src="./login_files/bloodhound.js.download"></script>
+    <script src="./login_files/bloodhound.min.js.download"></script>
+    <script src="./login_files/typeahead.jquery.min.js.download"></script>
+    <script src="./login_files/typeahead.jquery.js.download"></script>
+    <script src="./login_files/typeahead.bundle.js.download"></script>
+    <script src="./login_files/typeahead.bundle.min.js.download"></script>
+
+    <!-- Datatables JS -->
+    <script src="./login_files/jquery.dataTables.min.js.download"></script>
+    <script src="./login_files/dataTables.responsive.min.js.download"></script>
+    <script src="./login_files/dataTables.rowReorder.min.js.download"></script>
+    <script src="./login_files/dataTables.fixedColumns.min.js.download"></script>
+    <script
+      type="text/javascript"
+      src="./login_files/jquery-ui.js.download"
+    ></script>
+    <script
+      type="text/javascript"
+      src="./login_files/moment.js.download"
+    ></script>
+    <script
+      type="text/javascript"
+      src="./login_files/dynamic-table.jquery.js.download"
+    ></script>
+    <script
+      type="text/javascript"
+      src="./login_files/dynamic-table-editor.jquery.js.download"
+    ></script>
+
+    <!-- Upload files -->
+    <script src="./login_files/jquery.fileuploader.js.download"></script>
+
+    <!-- Chosen Select JS -->
+    <script src="./login_files/chosen.jquery.js.download"></script>
+
+    <!-- Selectize JS -->
+    <script src="./login_files/selectize.js.download" charset="UTF-8"></script>
+
+    <!-- Summernote IS -->
+    <script src="./login_files/summernote.js.download"></script>
+    <script src="./login_files/jquery-confirm.js.download"></script>
+    <script src="./login_files/common.js.download"></script>
+    <script src="./login_files/printThis.js.download"></script>
+
+    <script src="./login_files/handsontable.full.min.js.download"></script>
+    <script src="./login_files/numeral.sv-se.js.download"></script>
+
+    <script src="./login_files/ckeditor.js.download"></script>
+    <script src="./login_files/jquery(1).js.download"></script>
+
+    <script src="./login_files/toastr.min.js.download"></script>
+    <script src="./login_files/toastr.min.js.download"></script>
+  </body>
+  <grammarly-desktop-integration data-grammarly-shadow-root="true"
+    ><template shadowrootmode="open"
+      ><style>
+        div.grammarly-desktop-integration {
+          position: absolute;
+          width: 1px;
+          height: 1px;
+          padding: 0;
+          margin: -1px;
+          overflow: hidden;
+          clip: rect(0, 0, 0, 0);
+          white-space: nowrap;
+          border: 0;
+          -moz-user-select: none;
+          -webkit-user-select: none;
+          -ms-user-select: none;
+          user-select: none;
+        }
+
+        div.grammarly-desktop-integration:before {
+          content: attr(data-content);
+        }
+      </style>
+      <div
+        aria-label="grammarly-integration"
+        role="group"
+        tabindex="-1"
+        class="grammarly-desktop-integration"
+        data-content='{"mode":"full","isActive":true,"isUserDisabled":false}'
+      ></div></template
+  ></grammarly-desktop-integration>
+</html>
